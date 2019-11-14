@@ -1,0 +1,4 @@
+logging:
+  level: INFO
+  loggers:
+    com.alistairyves.simple-java-rest: DEBUG
