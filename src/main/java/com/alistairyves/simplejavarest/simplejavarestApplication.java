@@ -1,13 +1,13 @@
-package com.alistairyves.simple-java-rest;
+package com.alistairyves.simplejavarest;
 
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
-public class simple-java-restApplication extends Application<simple-java-restConfiguration> {
+public class simplejavarestApplication extends Application<simplejavarestConfiguration> {
 
     public static void main(final String[] args) throws Exception {
-        new simple-java-restApplication().run(args);
+        new simplejavarestApplication().run(args);
     }
 
     @Override
@@ -16,12 +16,12 @@ public class simple-java-restApplication extends Application<simple-java-restCon
     }
 
     @Override
-    public void initialize(final Bootstrap<simple-java-restConfiguration> bootstrap) {
+    public void initialize(final Bootstrap<simplejavarestConfiguration> bootstrap) {
         // TODO: application initialization
     }
 
     @Override
-    public void run(final simple-java-restConfiguration configuration,
+    public void run(final simplejavarestConfiguration configuration,
                     final Environment environment) {
         // TODO: implement application
     }

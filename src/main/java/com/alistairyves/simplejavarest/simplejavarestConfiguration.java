@@ -1,10 +1,10 @@
-package com.alistairyves.simple-java-rest;
+package com.alistairyves.simplejavarest;
 
 import io.dropwizard.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.validator.constraints.*;
 import javax.validation.constraints.*;
 
-public class simple-java-restConfiguration extends Configuration {
+public class simplejavarestConfiguration extends Configuration {
     // TODO: implement service configuration
 }
