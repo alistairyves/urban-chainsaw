@@ -4,10 +4,10 @@ import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
-public class simplejavarestApplication extends Application<simplejavarestConfiguration> {
+public class SimpleJavaRestApplication extends Application<SimpleJavaRestConfiguration> {
 
     public static void main(final String[] args) throws Exception {
-        new simplejavarestApplication().run(args);
+        new SimpleJavaRestApplication().run(args);
     }
 
     @Override
@@ -16,12 +16,12 @@ public class simplejavarestApplication extends Application<simplejavarestConfigu
     }
 
     @Override
-    public void initialize(final Bootstrap<simplejavarestConfiguration> bootstrap) {
+    public void initialize(final Bootstrap<SimpleJavaRestConfiguration> bootstrap) {
         // TODO: application initialization
     }
 
     @Override
-    public void run(final simplejavarestConfiguration configuration,
+    public void run(final SimpleJavaRestConfiguration configuration,
                     final Environment environment) {
         // TODO: implement application
     }
